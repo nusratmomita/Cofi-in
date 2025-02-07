@@ -15,33 +15,36 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+              },
+              fontFamily: {
+                manrope: ['Manrope', 'serif']
               }
             }
           }
         }
-      </script>
+    </script>
     <style>
         .manrope-font{
             font-family: "Manrope", serif;
         }
     </style>
 </head>
-<body class="manrope-font">
+<body class="font-manrope">
     <header class="lg:flex gap-10 mt-35 max-w-screen-xl mx-auto px-16 lg:px-28">
       <div class="w-190 h-150">
         <h1 class="font-extrabold text-6xl md:text-7xl">It's good <br> coffee time at The <span class="italic underline text-amber-700">Coffee</span> House</h1>
         <br>
         <p class="font-medium text-lg text-[#777777] ">Coffee and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
         <br>
-        <button class="bg-linear-to-l from-[#FF0000] to-[#FF8938] text-white font-bold text-base rounded-2xl px-5 py-3">Explore More<i class="text-xl -rotate-45 fa-solid fa-arrow-right ml-3"></i></button>
+        <button class="bg-linear-to-r from-[#5f2222] to-[#b07e7c] text-white font-bold text-base rounded-2xl px-5 py-3">Explore More<i class="text-xl -rotate-45 fa-solid fa-arrow-right ml-3"></i></button>
       </div>
       <div class="relative">
         <!-- img -->
         <div>
-          <img class="w-full"src="images/banner.png" alt="banner">
+          <img class="w-full rounded-xl"src="images/coffee_banner.jfif" alt="banner">
         </div>
         <!-- card -->
-        <div class="w-70 h-19 absolute left-12 top-70 flex gap-5 items-center bg-white shadow-lg rounded-3xl p-4 md:p-8 lg:5">
+        <!-- <div class="w-70 h-19 absolute left-12 top-70 flex gap-5 items-center bg-white shadow-lg rounded-3xl p-4 md:p-8 lg:5">
           <div>
             <i class="text-3xl fa-solid fa-star" style="color: #f59b00;"></i>
           </div>
@@ -49,7 +52,7 @@
             <h2 class="text-2xl font-bold">5.00</h2>
             <p class="text-[#777777] font-semibold text-lg">Trust Pilot Ratings</p>
           </div>
-        </div>
+        </div> -->
         
       </div>
     </header>
@@ -65,23 +68,23 @@
         </div>
         <div class="grid grid-cols-1 ml-45 gap-8 md:grid-cols-2 md:gap-3 lg:grid-cols-4 lg:gap-6 text-center ml-24 md:ml-12 lg:ml-0">
           <div class="shadow-md bg-linear-to-b from-[#F4F4F4] to-[#F4F4F4] rounded-2xl  w-75 h-85">
-            <img class="mx-auto ml-10 p-8" src="images/tea-1.png" alt="">
+            <img class="rounded-lg w-48 h-70 mx-auto ml-10 p-8" src="images/Card1.jfif" alt="">
             <h3 class="font-extrabold text-lg -mt-5 -ml-5">Milk Coffee</h3>
             <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
           </div>
           <div class="shadow-md bg-linear-to-b from-[#F4F4F4] to-[#F4F4F4] rounded-2xl  w-75 h-85">
             <img class="mx-auto ml-10 p-8" src="images/tea-2.png" alt="">
-            <h3 class="font-extrabold text-lg -mt-5 -ml-5">Black Tea</h3>
+            <h3 class="font-extrabold text-lg -mt-5 ml-5">strawberry Latte </h3>
             <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
           </div>
           <div class="shadow-md bg-linear-to-b from-[#F4F4F4] to-[#F4F4F4] rounded-2xl  w-75 h-85">
             <img class="mx-auto ml-10 p-8" src="images/tea-3.png" alt="">
-            <h3 class="font-extrabold text-lg -mt-5 -ml-5">Lemon Tea</h3>
+            <h3 class="font-extrabold text-lg -mt-5 -ml-5">Double Milk Coffee</h3>
             <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
           </div>
           <div class="shadow-md bg-linear-to-b from-[#F4F4F4] to-[#F4F4F4] rounded-2xl  w-75 h-85">
             <img class="mx-auto ml-13 p-8" src="images/tea-4.png" alt="">
-            <h3 class="font-extrabold text-lg -mt-5 -ml-5">Green Tea</h3>
+            <h3 class="font-extrabold text-lg -mt-5 -ml-5">Americano </h3>
             <p class="font-semibold text-[#777777]">Creamer could be replaced by fresh milk</p>
           </div>
         </div>
@@ -103,7 +106,8 @@
            </div>
            <!-- text part -->
             <div>
-              <h2 class="font-extrabold text-3xl">Great Coffee, Freshly <br>Presented</h2>
+              <h2 class="font-extrabold text-3xl">Great <span class="text-amber-700">Coffee</span> and
+              <span class="text-green-700">Tea</span>, Freshly <br>Presented</h2>
               <p class="mt-6 font-medium text-lg text-[#777777]">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
 
               <h5 class="mt-6 font-extrabold text-lg">Unique Taste</h5>
@@ -117,7 +121,7 @@
 
       <!-- client section -->
       <section class="mb-24 mx-24 mt-85"> 
-        <div class="w-full bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white p-8 md:p-16">
+        <div class="w-full bg-gradient-to-r from-[#4b1414] to-[#623232] rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white p-8 md:p-16">
           <!-- text side -->
           <div class="flex justify-center items-center overflow-hidden">
             <div class="ml-12">
@@ -144,7 +148,7 @@
             <!-- top card -->
             <div class="relative -left-16 lg:left-30  opacity-40 w-130 h-58 bg-white text-black rounded-lg px-5 md:w-3/4">
               <div class="p-1 bg-white rounded-full absolute -top-5 -left-5">
-                <img src="images/client.png" alt="">
+                <img src="images/client.png" alt="client">
               </div>
               
               <p class="p-12 text-gray-500">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
@@ -178,7 +182,7 @@
         <img class="mb-8" src="images/cup.png" alt="">
         <div class="flex items-center gap-3">
           <h4>Ready to get started?</h4>
-          <button class="bg-linear-to-l from-[#FF0000] to-[#FF8938] text-white font-bold text-base rounded-xl px-3 py-2">Get Started</button>
+          <button class="bg-linear-to-l from-[#715555] to-[#7a0303] text-white font-bold text-base rounded-xl px-3 py-2">Get Started</button>
         </div>
         </div>
         <!-- Links -->
@@ -217,7 +221,7 @@
             <div class="flex flex-col space-y-2">
               <div>
                 <input class="bg-transparent border-b-2 border-black w-4/6"placeholder="Email Address"type="text">
-                <i class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 p-1 flex rounded-full text-white justify-center items-center "></i>
+                <i class="fa-solid fa-chevron-right w-7 h-7 bg-amber-800 p-1 flex rounded-full text-white justify-center items-center "></i>
 
                 <!-- icons -->
                 <div class="flex justify-between w-2/5 mb-2 mt-8">
